@@ -1,0 +1,23 @@
+{
+  "name": "worker-upload-demo",
+  "version": "1.0.0",
+  "description": "Demo using Workers to upload to Stream",
+  "main": "index.js",
+  "author": "Cloudflare",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "uppy": "^0.23.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.1.0",
+    "webpack": "4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "scripts": {
+    "start:ui": "webpack-dev-server --config=webpack.ui.js"
+  }
+}
